@@ -1,25 +1,16 @@
 package lesson_2
 
-// ЗАДАЧА
-//Задача на среднее арифметическое. В классе с углубленным изучением английского языка учится 4 человека.
-// У них следующие баллы по профильному предмету 3, 4, 3, 5.
-// Пишем часть школьного софта, который посчитает средний балл по английскому для этого класса.
-//
-//– Написать выражение, которое высчитывает средний балл;
-//– Распечатать результат в консоль;
-//– В консоли должно быть выведено дробное число с 2 знаками после запятой.
-
 fun main() {
-    val a = 3
-    val b = 4
-    val c = 3
-    val d = 5
+    val firstStudent = 3
+    val secondStudent = 4
+    val thirdStudent = 3
+    val fourthStudent = 5
 
     val numberOfStudents = 4
 
     var averageRating: Float
 
-    averageRating = ((a + b + c + d).toFloat()) / numberOfStudents
+    averageRating = ((firstStudent + secondStudent + thirdStudent + fourthStudent).toFloat()) / numberOfStudents
 
     println(averageRating)
 }
