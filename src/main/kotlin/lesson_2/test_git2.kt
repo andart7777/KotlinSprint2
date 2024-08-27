@@ -5,4 +5,6 @@ fun main() {
     println("Добавка в пулл реквесте")
     println("Что то типа порешал...")
     println("после реверт")
+
+    println("Test-GIT2")
 }
