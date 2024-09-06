@@ -1,4 +1,4 @@
-package All_lessons_start_from_third
+package lesson_3
 
 fun main() {
     val greetings: String = "Здравствуйте"
