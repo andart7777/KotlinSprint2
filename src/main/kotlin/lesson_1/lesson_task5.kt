@@ -6,9 +6,12 @@ fun main() {
     val minutes: Int
     val remainingSeconds: Int
 
-    hours = seconds / 3600
-    minutes = (seconds % 3600) / 60
-    remainingSeconds = seconds % 60
+    val secondsInOneHour: Int = 3600
+    val secondsInOneMinute: Int = 60
+
+    hours = seconds / secondsInOneHour
+    minutes = (seconds % secondsInOneHour) / secondsInOneMinute
+    remainingSeconds = seconds % secondsInOneMinute
 
     println("$hours:$minutes:$remainingSeconds")
     println(String.format("%02d:%02d:%02d", hours, minutes, remainingSeconds))
