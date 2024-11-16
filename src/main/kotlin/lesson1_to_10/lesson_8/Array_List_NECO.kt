@@ -1,6 +1,9 @@
 // Урок https://youtu.be/7O3ivzemi1s?si=zJ64-YZWfE-ZwlHb
 
+// Перенес урок NECO по массивам в KotlinSprint
+
 fun main() {
+
 
     /* МАССИВЫ - ArrayOf
     * Нельзя расширять список, можно менять элементы или перезаписать полностью
